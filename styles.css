@@ -1,0 +1,338 @@
+body 
+{
+	margin: 0; 
+	padding: 0 ; 
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.center
+{
+	text-align: center;
+}
+#sectionP
+{
+	display: flex;
+	justify-content: 
+}
+.types
+{
+	display: flex;
+	text-align: center;
+}
+.types img 
+{
+	width: 200px; 
+}
+.ctxt
+{
+	width: 500px; 
+	padding: 15px; 
+	margin: auto;
+	text-align: justify;
+}
+.cursor:hover
+{
+	cursor: pointer; 
+}
+
+#sallon
+{
+	display: flex;
+}
+#sectionP
+	{
+		
+		display: flex;
+		justify-content: center;
+	}
+
+	#sallon
+{
+	display: flex;
+	justify-content: space-around;
+}
+.adresse
+{
+	background-color: black ; 
+	color: white ; 
+	text-align: center;
+	padding: 30px; 
+	font-family: 'Sniglet', cursive;
+	margin-right: 50px; 
+}
+.infod
+{
+background-color: black ; 
+color: white ; 
+margin-right: 50px; 
+padding: 50px; 
+	
+}
+.rdv
+{
+	display: none;
+}
+.form 
+{
+padding: 40px;
+}
+.rdv img
+{
+width: 200px; 
+border-radius: 100%; 
+margin-bottom: 10px ; 
+border:2px solid #3dafda;
+
+}
+
+input
+{
+	height:40px; 
+	border:2px solid   #3dafda;
+}
+button
+{
+	height:40px; 
+	background-color:   #3dafda ; 
+	color: white ; 
+	border:2px solid  #3dafda;	
+	border-radius: 25px 25px 25px 25px  ; 
+}
+button:hover
+{
+	cursor: pointer;
+}
+textarea
+{
+border:2px solid  #3dafda;	
+}
+::placeholder {
+  color: #405a63;
+
+}
+
+#responsives , #aze
+{
+	display: flex;
+	justify-content: space-between;
+
+	background-color: black ; 
+	color: white ; 
+	display: none;
+}
+#sallon
+{
+	justify-content: center;
+	
+	text-align: center;
+	padding: 15px; 
+}
+
+#responsives div
+{
+	padding: 30px; 
+}
+#aze
+	{
+		background-color: black ; 
+		height: 100%; 
+		width: 100%; 
+		color: white ; 
+		position: absolute;
+	
+		text-align: center;
+		
+
+	}
+
+#footer
+	{
+		background-color: black ; 
+		color: white ; 
+		margin-top: 100px; 
+		padding: 50px; 
+	display: flex;
+		justify-content: space-around;
+
+	}
+	#footer a 
+	{
+		margin-right: 10px; 
+	
+	}
+	.fa
+	{
+		cursor: pointer;
+
+	}
+	footer
+	{
+		background-color: black ; 
+	}
+	header
+	{
+		margin: 0 ; 
+
+}
+.flexsb
+{
+display: flex;
+justify-content: space-around;
+}
+.flexsb img
+{
+	width: 200px; 
+	height: 400px; 
+}
+
+#hommes  b[title*="figcaption"] 
+{
+margin: auto;
+}
+#hommes
+{
+	width: 100%;
+	text-align: center;
+}
+#femmes
+{
+	
+	width: 80%; 
+	margin: auto;
+	text-align: justify;
+
+}
+h1
+{
+	font-size: 2.5em ;
+}
+
+b[title*="figcaption"]
+{
+	font-size:2em;
+}
+ div[title*="headertop"]
+ {
+background-color: red; 
+ }
+
+h2,div[title*="ctxt"],a[title*="ctxt"],input , textarea , button,#footer
+{
+	font-size:1.5em; 
+	
+}
+#presentation
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: black ; 
+	color : white;
+	padding: 15px;
+	font-size:1.5em; 
+
+}
+#hommes img,#femmes img
+{
+	width:400px; 
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1280px)
+{
+
+#hommes img,#femmes img
+{
+	width: 90%; 
+	text-align: center;
+}
+#responsives ,div[title*="headertop"],#footer
+{
+	font-size: 4em ; 
+}
+#footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+}
+footer
+{
+	margin-top: 400px;
+}
+
+
+
+
+.models img
+{
+	width: 100%;
+}
+.models
+{
+	
+}
+
+	.adresse
+	{
+		height: 100%;
+	}
+  #presentation , .intro
+  {
+  	display: none;
+  	transition:  1s ;
+  }
+  #responsives
+{
+		display: flex;
+		transition:  1s ;
+	
+}
+#aze
+{
+	display: block;
+	
+}
+#sectionP 
+{
+	display: block;
+	border-left: 1px solid rgba(0,0,0,0.3) ; 
+	border-right: 1px solid rgba(0,0,0,0.3) ; 
+	margin-left: 15px; 
+	margin-right: 15px; 
+	transition:  1s ;
+}
+.types
+{
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	transition:  1s ;
+}
+#sallon
+{
+	display: block;
+	justify-content: center;
+	margin-right: 0px; 
+
+}
+.carte
+{
+	width :10%; 
+	height:450px ;
+	text-align: center;
+
+
+	margin: auto;
+	justify-content: center;
+}
+.cartex
+{
+		margin-top: 100px; 
+}
+
+
+
+
+}
